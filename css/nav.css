@@ -1,0 +1,43 @@
+.navigator {
+  height: 40px;
+  border-bottom: #0cccce 2px solid;
+}
+.allWidth{
+	width: 1190px;
+	margin: 0 auto;
+}
+.navigator .nav div{
+	height: 40px;
+	line-height: 36px;
+	font-size: 14px;
+	float: left;
+}
+.navigator .nav .left{
+	float: left;
+}
+.navigator .nav .right{
+	float: right;
+}
+.navigator .nav div li{
+	list-style-type: none;
+	float: left;
+	line-height: 38px;
+	height: 38px;
+	cursor: pointer;
+}
+.navigator .nav div li.current{
+	border-bottom: 4px #00cccc solid;
+}
+.navigator .nav div li a{
+	padding: 0 40px;
+}
+.navigator .nav div.right li a{
+	padding: 0 37.5px;
+
+}
+.navigator .nav div li:not(:last-of-type) a{
+	border-right: 1px #e6e6e6 solid;
+}
+.navigator .nav a:hover{
+	color: #00ccce;
+}
