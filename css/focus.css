@@ -16,6 +16,7 @@
 	float: right;
 }
 .c-focus{
+	min-width: 1190px;
 	height: 540px;
 	background-color: #f2f2f2;
 	padding: 20px 0;
@@ -240,6 +241,7 @@
 }
 
 .page .c-hot{
+	min-width: 1190px;
 	height: 634px;
 	background:url(../image/hotbg.png);
 	background-position: 50% 50%;
